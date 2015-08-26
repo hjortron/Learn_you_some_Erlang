@@ -46,8 +46,5 @@ rpn_test() ->
   true = math:sqrt(2) == rpn("2 0.5 ^"),
   true = math:log(2.7) == rpn("2.7 ln"),
   true = math:log10(2.7) == rpn("2.7 log10"),
-%%   50 = rpn("10 10 10 20 sum"),
-%%   10.0 = rpn("10 10 10 20 sum 5 /"),
-%%   1000.0 = rpn("10 10 20 0.5 prod"),
   ok.
 
